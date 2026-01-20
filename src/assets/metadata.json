@@ -1,0 +1,14 @@
+{
+  "card_metadata": {
+    "id": "Unique identifier for the card context record in the database.",
+    "headline": "A catchy, short (max 5 words) headline summarizing the user's current focus or vibe.",
+    "subheadline": "The user's Farcaster handle or FID (e.g., @fid_402755) for identification.",
+    "summary_line": "A concise, single-sentence summary of the user's persona and core activity.",
+    "stats": "Array of 3 core metrics optimized for the card design. Includes '{ label: string, value: string }'. Defaults to: 'Casts/30d', 'Avg likes', 'Followers'.",
+    "badges": "Identity & Role labels (Who they are). Array of max 3 short strings (e.g., 'Base Builder', 'Runner'). Max 20 chars per badge.",
+    "topics": "Content & Interest labels (What they talk about). Array of max 3 very short strings (e.g., 'Web3 dev', 'Base'). Max 20 chars per topic.",
+    "activity_pattern": "Categorized posting behavior derived from analytics (e.g., 'daily_active', 'occasional').",
+    "active_since": "Estimated start date of the user's Farcaster journey in 'YYYY-MM' format.",
+    "featured_casts": "Array of exactly 3 notable casts selected for high engagement and brand alignment. Each includes 'hash', 'url', 'text' (excerpt), 'likes', and a 'reason' (AI's analysis of why it matches the persona)."
+  }
+}
